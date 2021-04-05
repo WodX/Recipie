@@ -1,6 +1,5 @@
-import React from "react";
-import { View, StyleSheet, Text } from "react-native";
-import { Color, Typography, Spacing } from "../styles";
+import React from 'react';
+import { View, StyleSheet, Text } from 'react-native';
 
 const Nutrition = () => {
   return (
@@ -12,8 +11,8 @@ const Nutrition = () => {
 
 const styles = StyleSheet.create({
   scene: {
-    flex: 1,
-  },
+    flex: 1
+  }
 });
 
 export default Nutrition;

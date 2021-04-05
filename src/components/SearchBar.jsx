@@ -1,7 +1,7 @@
-import React from "react";
-import { View, StyleSheet, TextInput, TouchableOpacity } from "react-native";
-import { AntDesign } from "@expo/vector-icons";
-import { Color, Typography, Spacing } from "../styles";
+import React from 'react';
+import { View, StyleSheet, TextInput, TouchableOpacity } from 'react-native';
+import { AntDesign } from '@expo/vector-icons';
+import { Color, Typography, Spacing } from '../styles';
 
 const SearchBar = ({ onPress, onChangeText }) => {
   return (
@@ -21,7 +21,7 @@ const SearchBar = ({ onPress, onChangeText }) => {
           name="search1"
           size={20}
           color="white"
-          style={{ alignSelf: "center" }}
+          style={{ alignSelf: 'center' }}
         />
       </TouchableOpacity>
     </View>
@@ -30,29 +30,29 @@ const SearchBar = ({ onPress, onChangeText }) => {
 
 const styles = StyleSheet.create({
   searchBox: {
-    alignSelf: "center",
-    display: "flex",
-    flexDirection: "row",
-    justifyContent: "flex-start",
+    alignSelf: 'center',
+    display: 'flex',
+    flexDirection: 'row',
+    justifyContent: 'flex-start',
     height: 40,
-    backgroundColor: "white",
+    backgroundColor: 'white',
     borderRadius: 5,
     borderTopRightRadius: 15,
-    marginHorizontal: Spacing.globalMargin,
+    marginHorizontal: Spacing.globalMargin
   },
   searchInput: {
     flex: 1,
     paddingHorizontal: 15,
-    fontFamily: Typography.lightRoboto,
+    fontFamily: Typography.lightRoboto
   },
   searchButton: {
     flex: 1,
-    justifyContent: "center",
+    justifyContent: 'center',
     backgroundColor: Color.mediumGreen,
     borderTopRightRadius: 15,
     borderBottomLeftRadius: 15,
-    maxWidth: 50,
-  },
+    maxWidth: 50
+  }
 });
 
 export default SearchBar;

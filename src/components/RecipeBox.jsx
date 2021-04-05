@@ -1,6 +1,6 @@
-import React from "react";
-import { View, StyleSheet, TouchableOpacity, Image, Text } from "react-native";
-import { Typography, Color } from "../styles";
+import React from 'react';
+import { View, StyleSheet, TouchableOpacity, Image, Text } from 'react-native';
+import { Typography, Color } from '../styles';
 
 const RecipeBox = ({ onPress, image, title }) => {
   return (
@@ -17,34 +17,34 @@ const RecipeBox = ({ onPress, image, title }) => {
 
 const styles = StyleSheet.create({
   box: {
-    display: "flex",
-    flexDirection: "row",
+    display: 'flex',
+    flexDirection: 'row',
     marginVertical: 10,
-    backgroundColor: "white",
+    backgroundColor: 'white',
     borderRadius: 10,
     elevation: 3,
-    padding: 5,
+    padding: 5
   },
   boxImage: {
     borderRadius: 15,
     height: 120,
     width: 100,
     borderRadius: 10,
-    overflow: "hidden",
+    overflow: 'hidden'
   },
   image: {
-    width: "120%",
-    height: "120%",
+    width: '120%',
+    height: '120%'
   },
   textView: {
     padding: 5,
-    flex: 1,
+    flex: 1
   },
   text: {
     fontFamily: Typography.boldBaloo,
     fontSize: 16,
-    color: Color.darkGreen,
-  },
+    color: Color.darkGreen
+  }
 });
 
 export default RecipeBox;
