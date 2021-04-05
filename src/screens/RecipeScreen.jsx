@@ -36,10 +36,6 @@ const renderTabBar = (props) => {
         backgroundColor: Color.lightGreen,
         height: 5
       }}
-      contentContainerStyle={{
-        borderWidth: 2,
-        borderColor: 'red'
-      }}
       style={{
         backgroundColor: 'white'
       }}
