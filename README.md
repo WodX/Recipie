@@ -5,7 +5,7 @@
 #
 
 ### Make it work:
- - Copy the `.env.example` a create a new file called `.env`
+ - Copy the `.env.example` and create a new file called `.env`
  - Write your credentials on `.env` file
  - Run
     - `npm install`
